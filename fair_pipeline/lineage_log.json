@@ -1,0 +1,20 @@
+{
+    "dataset_name": "Kutat\u00e1si minta adathalmaz",
+    "version": "1.0",
+    "processed_at": "2026-10-02T17:00:26.406681",
+    "pipeline_steps": [
+        {
+            "step": "1. Schema Extraction",
+            "input_file": "data/minta_adat.csv",
+            "output_file": "schema_output.json",
+            "action": "CSV fejl\u00e9cek automatikus kinyer\u00e9se"
+        },
+        {
+            "step": "2. Ontology Mapping",
+            "input_file": "schema_output.json",
+            "output_file": "metadata.jsonld",
+            "action": "Fejl\u00e9cek \u00f6sszek\u00f6t\u00e9se SNOMED \u00e9s NCIT orvosi sz\u00f3t\u00e1rakkal"
+        }
+    ],
+    "status": "FAIR elveknek megfelel\u0151 adateredet r\u00f6gz\u00edtve."
+}

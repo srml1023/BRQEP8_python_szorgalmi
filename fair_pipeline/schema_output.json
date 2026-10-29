@@ -1,0 +1,9 @@
+{
+    "source_file": "data/minta_adat.csv",
+    "extracted_columns": [
+        "patient_id",
+        "heart_rate",
+        "blood_pressure",
+        "study_date"
+    ]
+}

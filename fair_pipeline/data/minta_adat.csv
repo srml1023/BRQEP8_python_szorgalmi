@@ -1,0 +1,3 @@
+patient_id,heart_rate,blood_pressure,study_date
+P001,75,120/80,2026-10-01
+P002,82,130/85,2026-10-02

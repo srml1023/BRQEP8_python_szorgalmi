@@ -1,0 +1,29 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Kutat\u00e1si minta adathalmaz",
+    "description": "Automatikus pipeline \u00e1ltal gener\u00e1lt metaadatok",
+    "sourceFile": "data/minta_adat.csv",
+    "variablesMeasured": [
+        {
+            "@type": "PropertyValue",
+            "name": "patient_id",
+            "propertyID": "http://purl.obolibrary.org/obo/NCIT_C83226"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "heart_rate",
+            "propertyID": "http://purl.bioontology.org/ontology/SNOMEDCT/364075005"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "blood_pressure",
+            "propertyID": "http://purl.bioontology.org/ontology/SNOMEDCT/75367002"
+        },
+        {
+            "@type": "PropertyValue",
+            "name": "study_date",
+            "propertyID": "http://purl.obolibrary.org/obo/NCIT_C25164"
+        }
+    ]
+}
